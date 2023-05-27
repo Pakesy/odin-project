@@ -4,10 +4,10 @@ Repo for The Odin Project's challenges and projects.
 
 ## Foundations
 
-- [ ] [Recipes]
-- [ ] [landing Page]
-- [ ] [Rock Paper Scissors]
-- [  [Etch-a-Sketch]
+- [ ] Recipes
+- [ ] landing Page
+- [ ] Rock Paper Scissors
+- [ ] Etch-a-Sketch
 - [ ] Calculator
 
 ## Full Stack JavaScript
