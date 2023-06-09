@@ -1,0 +1,99 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.wrapper {
+    width: 80vw;
+    min-height: 90vh;
+    margin: auto;
+    padding: 0px 75px 100px 75px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.wrapper h1 {
+    padding: 30px 0px;
+    text-align: center;
+}
+#lasagna-img {
+    width: 80vw;
+    height: 40vh;
+    background: url(https://cafedelites.com/wp-content/uploads/2018/01/Mamas-Best-Lasagna-IMAGE-43.jpg) 50% 30%;
+    background-size: cover;
+}
+
+#steak-img {
+    width: 80vw;
+    height: 40vh;
+    background: url(https://natashaskitchen.com/wp-content/uploads/2020/03/Pan-Seared-Steak-4.jpg) 50% 60%;
+    background-size: cover;
+}
+#burger-img {
+    width: 80vw;
+    height: 40vh;
+    background: url(https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/1288_1_1434099660.jpg?tr=w-800,h-1066) 50% 60%;
+    background-size: cover;
+}
+
+.recipe-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.r-child {
+    width: 300px;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child-img {
+    width: auto;
+    height: 90%;
+}
+
+.r-child a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.r-child a:hover {
+    font-weight: bold;
+}
+
+#lasagna {
+    background: url(https://cafedelites.com/wp-content/uploads/2018/01/Mamas-Best-Lasagna-IMAGE-43.jpg) 50% 30%;
+    background-size: cover;
+}
+
+#steak {
+    background: url(https://natashaskitchen.com/wp-content/uploads/2020/03/Pan-Seared-Steak-4.jpg) 40% 60%;
+    background-size: cover;
+}
+
+#burger {
+    background: url(https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/1288_1_1434099660.jpg?tr=w-800,h-1066) 50% 30%;
+    background-size: cover;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.home:hover {
+    color: red;
+    font-size: 140%;
+}
+
+.nav {
+    padding-top: 60px;
+    text-align: center;
+}

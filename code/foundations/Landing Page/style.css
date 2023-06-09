@@ -1,0 +1,248 @@
+:root {
+    --hero: #1f2937;
+    --hero-clr: #f9faf8;
+    --second-clr: #e5e7eb;
+    --third-clr: #1f2937;
+    --btn-clr: #3882f6;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper#hero {
+    background-color: var(--hero);
+}
+
+header {
+    background-color: var(--hero);
+}
+
+#header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    padding-top: 2rem;
+    align-items: center;
+    margin: auto;
+    background-color: var(--hero);
+}
+
+#logo {
+    color: var(--hero-clr);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--second-clr);
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.hero {
+    padding: 4rem 0rem;
+    background-color: var(--hero);
+    width: 70vw;
+    padding: 100px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.hero-child {
+    width: 50%;
+    height: auto;
+    min-height: 250px;
+}
+
+.hero-child h1 {
+    color: var(--hero-clr);
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.hero-child p {
+    color: var(--second-clr);
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-right: 40px;
+}
+
+#img-ph {
+    background-color: rgba(146, 146, 146, 0.7);
+    ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#signup {
+    background-color: var(--btn-clr);
+    border-radius: 8px;
+    padding: 6px 30px;
+    text-decoration: none;
+    color: var(--hero-clr);
+    font-weight: bold;
+}
+
+#signup:hover {
+    background-color: var(--hero-clr);
+    color: var(--btn-clr);
+}
+
+#second {
+    padding: 3rem 0rem;
+    margin: auto;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    text-align: center;
+}
+
+#second h2 {
+    color: var(--hero);
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.infobox {
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    background-color: var(--hero);
+}
+
+#infowrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.randominfo li {
+    color: hsl(0, 0%, 38%);
+    list-style: none;
+}
+
+.randominfo {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 170px;
+    text-align: center;
+}
+
+#testimonial {
+    background-color: var(--second-clr);
+}
+
+.testimonial {
+    padding: 5rem 0rem;
+    width: 63vw;
+    margin: auto;
+    background-color: var(--second-clr);
+    color: #1f2937;
+}
+
+.testimonial h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0px;
+    color: hsl(214deg 15% 28%);
+}
+
+.testimonial h4 {
+    text-align: right; 
+    margin-top: 0px; 
+    padding-right: 40px; 
+    color: var(--hero);
+    font-weight: bolder;
+}
+
+#cta {
+    padding: 5rem 0rem;
+}
+
+.cta {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem 0rem;
+    background-color: var(--btn-clr);
+}
+
+#cta-left {
+    width: 70%;
+    padding-left: 80px;
+}
+
+#cta-right {
+    width: 30%;
+    text-align: center;
+}
+
+.cta h3 {
+    color: var(--hero-clr);
+}
+
+.cta p {
+    color: var(--second-clr);
+}
+
+.cta a {
+    text-decoration: none;
+    color: var(--hero-clr);
+    padding: 6px 30px;
+    border-radius: 8px;
+    border: solid 2px var(--hero-clr);
+}
+
+.cta a:hover {
+    color: var(--btn-clr);
+    background-color: var(--hero-clr);
+}
+
+footer {
+    background-color: var(--hero);
+    padding: 2rem 0rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: var(--second-clr);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
