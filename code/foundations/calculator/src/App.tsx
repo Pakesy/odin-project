@@ -61,15 +61,16 @@ function App() {
   }
 
   const clear = () => {
-    setPrevValue("")
-    setOperation("")
-    setCurrentValue("0")
-    setOverwrite(true)
+    setPrevValue("");
+    setOperation("");
+    setCurrentValue("0");
+    setOverwrite(true);
   }
 
   const del = () => {
-    setCurrentValue("0")
-    setOverwrite(true)
+    if (currentValue == "0") return;
+    setCurrentValue(`${currentValue.slice(0, -1)}`);
+    setOverwrite(true);
   }
 
   const percent = () => {
@@ -108,7 +109,7 @@ function App() {
       <CalculatorBase elevation={3}>
         <Grid container spacing={1}>
           <Grid item xs={12}>
-            <OutputContainer>
+            <OutputContainer data-testid="output">
               {currentValue}
             </OutputContainer>
           </Grid>
