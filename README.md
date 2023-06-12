@@ -4,23 +4,20 @@ Repo for The Odin Project's challenges and projects.
 
 ## Foundations
 
-- [ ] Recipes
-- [ ] landing Page
-- [ ] Rock Paper Scissors
-- [ ] Etch-a-Sketch
-- [ ] Calculator
+- [x] [Recipes](https://github.com/Pakesy/odin-project/tree/main/code/foundations/recipes)
+- [x] [landing Page](https://github.com/Pakesy/odin-project/tree/main/code/foundations/landing-page)
+- [x] [Rock Paper Scissors](https://github.com/Pakesy/odin-project/tree/main/code/foundations/rock-paper-scissors)
+- [x] [Etch-a-Sketch](https://github.com/Pakesy/odin-project/tree/main/code/foundations/etch-a-sketch)
+- [x] [Calculator](https://github.com/Pakesy/odin-project/tree/main/code/foundations/calculator)
 
 ## Full Stack JavaScript
 
 ### HTML and CSS
 
-- [ ] Embedding Images and Video
-- [ ] HTML Forms
-- [ ] Design Teardown
-- [ ] Building with responsive design
-- [ ] Design your own grid-based framework
 - [ ] Sign up form
 - [ ] Admin Dashboard
+- [ ] Personal Portfolio
+
 
 ### Javascript
 
@@ -29,6 +26,10 @@ Repo for The Odin Project's challenges and projects.
 - [ ] Restaraunt Page
 - [ ] Todo List
 - [ ] Weather App
+- [ ] Recursion
+- [ ] Linked Lists
+- [ ] Binary Search Trees
+- [ ] Knights Travails
 - [ ] Testing Practice
 - [ ] Battleship
 - [ ] CV Application
@@ -45,7 +46,7 @@ Repo for The Odin Project's challenges and projects.
 - [ ] Inventory Application
 - [ ] Members only
 - [ ] Blog API
-- [ ]  Odin-book
+- [ ] Odin-book
 
 ### Getting Hired   
 
